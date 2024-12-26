@@ -6,7 +6,7 @@ const apiKey = "b07a619b34baecfd15552e131079e6be";
 
 weatherForm.addEventListener("submit", async function (event) {
   event.preventDefault();
-  const city = cityName.value;
+  const city = cityName.value.trim();
 
   //card.style.display = "block";
   //card.textContent = "Loding";
